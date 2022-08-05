@@ -46,6 +46,14 @@ img_header {
    max-width: 100%;
 }
 
+#trabajos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10rem;
+   margin-top: 6rem;
+   margin-bottom: 100rem;
+}
 .trabajos {
    display: flex;
    justify-content: center;
@@ -55,8 +63,8 @@ img_header {
    margin-bottom: 100rem;
 }
 
-.trabajo {
-   width: 20%;
+#trabajo {
+   width: 25%;
    text-align: center;
    box-shadow: rgba(236, 15, 159, 0.25) 0px 6px 12px -2px, rgba(250, 5, 197, 0.3) 0px 3px 7px -3px;
    padding: 1.5rem 1.5rem;
@@ -107,52 +115,69 @@ img_header {
 
 
 }
+#carrusel{
+   max-width: 45%;
+   height: auto;
+   align-content: center;
+   justify-items: center;
+   justify-content: center;
+   
+}
 
 
 
 #foto1 {
    grid-area: f1;
    max-width: 100%;
+   height: auto;
 }
 
 #foto2 {
    grid-area: f2;
    max-width: 100%;
+   height: auto;
 }
 
 #foto3 {
    grid-area: f3;
    max-width: 100%;
+   height: auto;
 }
 
 #foto4 {
    grid-area: f4;
    max-width: 100%;
+   height: auto;
 }
 
 #foto5 {
    grid-area: f5;
    max-width: 100%;
+   height: auto;
 }
 
 #foto6 {
    grid-area: f6;
    max-width: 100%;
+   height: auto;
 }
 
 #foto7 {
    grid-area: f7;
    max-width: 100%;
+   height: auto;
 }
 
 #foto8 {
    grid-area: f8;
    max-width: 100%;
+   height: auto;
 }
 
 #foto9 {
    grid-area: f9;
    max-width: 100%;
+   height: auto;
 }
 
 
