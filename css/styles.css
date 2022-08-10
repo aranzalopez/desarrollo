@@ -1,30 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+
+
 .header {
    display: flex;
    justify-content: space-around;
    align-items: center;
    padding: 1rem 0rem;
    border-bottom: 1px solid rgb(94, 67, 131);
+
 }
 
-img_header {
-   width: 100%;
-}
+
 
 .titulo_index {
    text-align: center;
    font-size: 400%;
+   font-weight: 900;
    font-family: "Dancing Script";
+   margin-bottom: 1.3rem;
+
+}
+.subtitulo{
+   text-align: center;
+   font-family: "Poppins";
+   font-style: italic;
    margin-bottom: 1.3rem;
 }
 
-.menu li {
+.pasteles {
    display: inline-block;
    margin: 0rem 1.5rem;
    font-family: "Poppins";
-   list-style-type: none;
+   text-align: start;
+   font-size: 20px;
 }
 
 
@@ -46,15 +56,7 @@ img_header {
    max-width: 100%;
 }
 
-#trabajos{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 10rem;
-   margin-top: 6rem;
-   margin-bottom: 100rem;
-}
-.trabajos {
+#trabajos {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -63,10 +65,73 @@ img_header {
    margin-bottom: 100rem;
 }
 
-#trabajo {
+.mapa {
+   display: flex;
+   justify-content: center;
+}
+
+.container-fluid {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10rem;
+   margin-top: 6rem;
+   margin-bottom: 100rem;
+}
+
+.card-title {
+   font-weight: 900;
+   font-size: 35px;
+}
+
+.card-text {
+   font-size: 20px;
+}
+
+#trabajo1 {
    width: 25%;
    text-align: center;
    box-shadow: rgba(236, 15, 159, 0.25) 0px 6px 12px -2px, rgba(250, 5, 197, 0.3) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+#trabajo2 {
+   width: 25%;
+   text-align: center;
+   box-shadow: rgba(236, 15, 159, 0.25) 0px 6px 12px -2px, rgba(250, 5, 197, 0.3) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+#trabajo3 {
+   width: 25%;
+   text-align: center;
+   box-shadow: rgba(236, 15, 159, 0.25) 0px 6px 12px -2px, rgba(250, 5, 197, 0.3) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+#pan {
+   width: 25%;
+   text-align: center;
+   box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, rgba(215, 49, 157, 0.845) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+#relleno {
+   width: 25%;
+   text-align: center;
+   box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, rgba(215, 49, 157, 0.845) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+#leches {
+   width: 25%;
+   text-align: center;
+   box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, rgba(215, 49, 157, 0.845) 0px 3px 7px -3px;
    padding: 1.5rem 1.5rem;
    font-family: "Poppins";
 }
@@ -82,6 +147,7 @@ img_header {
 .info h2 {
    margin-bottom: 1.3rem;
    font-family: "Poppins";
+   font-weight: 900;
 }
 
 .info p {
@@ -95,92 +161,22 @@ img_header {
    padding: 0.5rem 1.5rem;
    border-radius: 20px;
 
-}
-
-#galeria {
-   display: grid;
-   grid-template-columns: 400px 400px 400px;
-   grid-template-rows: 400px 400px 400px;
-   background-color: rgb(250, 159, 208);
-   grid-template-areas: "f1 f2 f3"
-      "f4 f5 f6"
-      "f7 f8 f9";
-   grid-column-gap: 15px;
-   grid-row-gap: 15px;
-   justify-items: center;
-   align-items: center;
-   align-content: center;
-   max-width: 100%;
-   justify-content: center;
-
 
 }
+
+
+
 #carrusel{
+
    max-width: 45%;
    height: auto;
-   align-content: center;
-   justify-items: center;
-   justify-content: center;
-   
+   margin: 0 auto;
+   box-shadow: rgb(249, 150, 198) 0px 6px 12px -2px, rgb(253, 145, 221) 0px 3px 7px -3px;
+
 }
-
-
-
-#foto1 {
-   grid-area: f1;
-   max-width: 100%;
-   height: auto;
+#carrusel:hover{
+   transform: scale(1.5,1);
 }
-
-#foto2 {
-   grid-area: f2;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto3 {
-   grid-area: f3;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto4 {
-   grid-area: f4;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto5 {
-   grid-area: f5;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto6 {
-   grid-area: f6;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto7 {
-   grid-area: f7;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto8 {
-   grid-area: f8;
-   max-width: 100%;
-   height: auto;
-}
-
-#foto9 {
-   grid-area: f9;
-   max-width: 100%;
-   height: auto;
-}
-
-
 #tabla {
    display: grid;
    grid-template-columns: 400px 400px 400px;
@@ -202,8 +198,12 @@ img_header {
 
 .titulo {
    font-family: "Poppins";
-   font-size: 45px;
+   font-weight: bolder;
+   font-size: 55px;
    text-align: center;
+   background-image: url(../img/fondo_titulo.jpg);
+   background-size: cover;
+
 }
 
 .titulo_menu {
@@ -211,7 +211,8 @@ img_header {
    background-size: cover;
    text-align: center;
    font-family: "Poppins";
-   font-size: 45px;
+   font-weight: bolder;
+   font-size: 60px;
    width: 100%;
    height: 100%;
 }
@@ -249,13 +250,108 @@ img_header {
 
 }
 
-.footer {
+#footer {
    display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 4rem;
-   padding: 0rem 10rem;
-   margin-top: 4rem;
-   font-family: "Dancing Script";
+   justify-content: space-around;
+   flex-direction: row;
+   font-family: "Poppins";
    font-weight: bold;
+   position: relative;
+   height: 100%;
+   max-width: 100%;
+   align-items: center;
+   gap: 10rem;
+   margin-top: 6rem;
+   margin-bottom: 100rem;
+   box-shadow: rgb(249, 150, 198) 0px 6px 12px -2px, rgb(253, 145, 221) 0px 3px 7px -3px;
+   background-color: rgb(255, 193, 226);
+}
+
+
+#logo {
+   width: 186px;
+   height: 142px;
+   justify-content: center;
+   margin: 0 auto;
+}
+
+#contacto {
+   text-align: left;
+   color: palevioletred;
+
+}
+
+#siguenos {
+   text-align: right;
+   color: palevioletred;
+
+}
+
+#texto1 {
+   display: flex;
+   justify-content: flex-start;
+   align-content: flex-start;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+
+}
+
+#logo_footer {
+   justify-content: center;
+   align-content: center;
+   max-width: 100%;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+
+}
+
+#texto2 {
+   display: flex;
+   justify-content: flex-end;
+   align-content: flex-end;
+   max-width: 100%;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+}
+
+#siguenos {
+   text-align: right;
+   color: palevioletred;
+
+}
+
+#texto1 {
+
+   grid-area: f1;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+
+}
+
+#logo_footer {
+   grid-area: f2;
+   max-width: 100%;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+
+}
+
+#texto2 {
+
+   grid-area: f3;
+   max-width: 100%;
+   width: 30%;
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
 }
