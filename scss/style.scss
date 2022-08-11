@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+
+.header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem 0rem;
+   border-bottom: 1px solid rgb(94, 67, 131);
+
+}
+
+
+
+.titulo_index {
+   text-align: center;
+   font-size: 400%;
+   font-weight: 900;
+   font-family: "Dancing Script";
+   margin-bottom: 1.3rem;
+
+}
+.subtitulo{
+   text-align: center;
+   font-family: "Poppins";
+   font-style: italic;
+   margin-bottom: 1.3rem;
+}
+
+.pasteles {
+   display: inline-block;
+   margin: 0rem 1.5rem;
+   font-family: "Poppins";
+   text-align: start;
+   font-size: 20px;
+}
+
+
+
+
+.menu {
+   list-style-type: none;
+  margin: 0 auto;
+}
+
+.main {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4rem;
+   
+   margin-top: 4rem;
+   flex-direction: column;
+   max-width: 100%;
+}
+
+
+.mapa {
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.card-title {
+   font-weight: 900;
+   font-size: 35px;
+}
+
+.card-text {
+   font-size: 20px;
+}
+
+.trabajo { 
+   text-align: center;
+   box-shadow: rgba(236, 15, 159, 0.25) 0px 6px 12px -2px, rgba(250, 5, 197, 0.3) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+}
+
+
+.menu_pasteles {
+  
+   text-align: center;
+   box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, rgba(215, 49, 157, 0.845) 0px 3px 7px -3px;
+   padding: 1.5rem 1.5rem;
+   font-family: "Poppins";
+   
+}
+
+
+
+.main_img {
+   width: 50%;
+}
+
+.info {
+   width: 82%;
+}
+
+.info h2 {
+   margin-bottom: 1.3rem;
+   font-family: "Poppins";
+   font-weight: 900;
+}
+
+.info p {
+   font-family: "Poppins";
+}
+
+.info div {
+   margin-top: 1.5rem;
+   background-color: rgb(104, 104, 226);
+   display: inline-block;
+   padding: 0.5rem 1.5rem;
+   border-radius: 20px;
+
+
+}
+
+
+
+#carrusel_index{
+
+   max-width: 80%;
+   height: auto;
+   margin: 0 auto;
+   box-shadow: rgb(249, 150, 198) 0px 6px 12px -2px, rgb(253, 145, 221) 0px 3px 7px -3px;
+  
+   
+}
+#carrusel_galeria{
+
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgb(249, 150, 198) 0px 6px 12px -2px, rgb(253, 145, 221) 0px 3px 7px -3px;
+   
+    
+ }
+.titulo_slide{
+    font-family: "Poppins";
+    font-weight: bolder;
+    color: azure;
+    font-weight: 60px;
+}
+.p_slide{
+    font-family: "Poppins";
+    color: azure;
+    font-weight: 50px;
+}
+
+
+
+.titulo {
+   font-family: "Poppins";
+   font-weight: bolder;
+   font-size: 55px;
+   text-align: center;
+   background-image: url(../img/fondo_titulo.jpg);
+   background-size: cover;
+
+}
+
+.titulo_menu {
+   background-image: url(../img/fondo_titulo.jpg);
+   background-size: cover;
+   text-align: center;
+   font-family: "Poppins";
+   font-weight: bolder;
+   font-size: 60px;
+   width: 100%;
+   height: 100%;
+}
+
+.formulario {
+
+   display: grid;
+   grid-template-columns: 150px 200px;
+   grid-template-rows: 30px 30px 30px 30px 100px;
+   max-width: 30%;
+   grid-column-gap: 15px;
+   grid-row-gap: 15px;
+   justify-items: center;
+   align-content: center;
+   justify-content: center;
+   margin: auto;
+   background-image: url(../img/fondo_titulo.jpg);
+   background-size: cover;
+   padding: 10px 20px;
+   box-sizing: border-box;
+   margin-top: 70px;
+   border-radius: 7px;
+   font-family: "Poppins";
+   font-weight: bold;
+
+
+}
+
+.botones {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(250, 159, 208);
+   height: 100px;
+
+}
+
+#footer {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   font-family: "Poppins";
+   font-weight: bold;
+   position: relative;
+   height: 100%;
+   max-width: 100%;
+   align-items: center;
+   gap: 10rem;
+   margin-top: 6rem;
+   margin-bottom: 100rem;
+   box-shadow: rgb(249, 150, 198) 0px 6px 12px -2px, rgb(253, 145, 221) 0px 3px 7px -3px;
+   background-color: rgb(255, 193, 226);
+}
+
+
+#logo {
+   width: 186px;
+   height: 142px;
+   justify-content: center;
+   margin: 0 auto;
+}
+
+#contacto {
+   text-align: left;
+   color: palevioletred;
+
+}
+
+#siguenos {
+   text-align: right;
+   color: palevioletred;
+
+}
+
+
+
+.textofooter {
+   justify-content: center;
+   align-content: center;
+   max-width: 100%;
+   
+   text-align: center;
+
+   padding: 1.5rem 1.5rem;
+
+}
+
+
+
+
