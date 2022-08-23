@@ -1,0 +1,36 @@
+.titulo_index {
+    text-align: center;
+    font-size: 400%;
+    font-weight: 900;
+    font-family: $fuente2;
+    margin-bottom: 1.3rem;
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: $fuente_prim;
+    font-style: italic;
+    margin-bottom: 1.3rem;
+}
+
+.titulo {
+    font-family: $fuente_prim;
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    background-image: url(../img/fondo_titulo.jpg);
+    background-size: cover;
+
+}
+
+.titulo_menu {
+    background-image: url(../img/fondo_titulo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: $fuente_prim;
+    font-weight: bolder;
+    font-size: 60px;
+    width: 100%;
+    height: 100%;
+}

@@ -1,11 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1rem 0rem;
-  border-bottom: 1px solid #5e4383; }
+#carrusel_index {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, #fa9fd0 0px 3px 7px -3px; }
+
+#carrusel_galeria {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, #fa9fd0 0px 3px 7px -3px; }
+
+.titulo_slide {
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: azure;
+  font-weight: 60px; }
+
+.p_slide {
+  font-family: "Poppins";
+  color: azure;
+  font-weight: 50px; }
 
 .titulo_index {
   text-align: center;
@@ -19,6 +35,51 @@
   font-family: "Poppins";
   font-style: italic;
   margin-bottom: 1.3rem; }
+
+.titulo {
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 55px;
+  text-align: center;
+  background-image: url(../img/fondo_titulo.jpg);
+  background-size: cover; }
+
+.titulo_menu {
+  background-image: url(../img/fondo_titulo.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 60px;
+  width: 100%;
+  height: 100%; }
+
+.mapa {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  border: 0; }
+
+.suc-info {
+  padding: 20px 28px 0;
+  margin: 0 0 10px;
+  font-family: "Poppins";
+  font-size: 23px; }
+
+.lugar {
+  font-weight: bolder;
+  font-size: 27px; }
+
+.suc-info span {
+  background-color: #fa9fd0;
+  padding: 0 4px; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #5e4383; }
 
 .pasteles {
   display: inline-block;
@@ -60,7 +121,7 @@
 
 .menu_pasteles {
   text-align: center;
-  box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, rgba(215, 49, 157, 0.845) 0px 3px 7px -3px;
+  box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, #fa9fd0 0px 3px 7px -3px;
   padding: 1.5rem 1.5rem;
   font-family: "Poppins"; }
 
@@ -85,47 +146,6 @@
   padding: 0.5rem 1.5rem;
   border-radius: 20px; }
 
-#carrusel_index {
-  max-width: 80%;
-  height: auto;
-  margin: 0 auto;
-  box-shadow: #f996c6 0px 6px 12px -2px, #fd91dd 0px 3px 7px -3px; }
-
-#carrusel_galeria {
-  max-width: 50%;
-  height: auto;
-  margin: 0 auto;
-  box-shadow: #f996c6 0px 6px 12px -2px, #fd91dd 0px 3px 7px -3px; }
-
-.titulo_slide {
-  font-family: "Poppins";
-  font-weight: bolder;
-  color: azure;
-  font-weight: 60px; }
-
-.p_slide {
-  font-family: "Poppins";
-  color: azure;
-  font-weight: 50px; }
-
-.titulo {
-  font-family: "Poppins";
-  font-weight: bolder;
-  font-size: 55px;
-  text-align: center;
-  background-image: url(../img/fondo_titulo.jpg);
-  background-size: cover; }
-
-.titulo_menu {
-  background-image: url(../img/fondo_titulo.jpg);
-  background-size: cover;
-  text-align: center;
-  font-family: "Poppins";
-  font-weight: bolder;
-  font-size: 60px;
-  width: 100%;
-  height: 100%; }
-
 .formulario {
   display: grid;
   grid-template-columns: 150px 200px;
@@ -133,25 +153,28 @@
   max-width: 30%;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  justify-items: center;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   background-image: url(../img/fondo_titulo.jpg);
   background-size: cover;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 70px;
-  border-radius: 7px;
+  padding: 20px 25px;
+  margin-top: 30px;
   font-family: "Poppins";
   font-weight: bold; }
 
-.botones {
+.botones, .btn_enviar, .btn_limpiar {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fa9fd0;
-  height: 100px; }
+  height: 50px; }
+
+.btn_enviar {
+  background-color: aqua;
+  color: black; }
+
+.btn_limpiar {
+  background-color: yellow;
+  color: black; }
 
 #footer {
   display: flex;
@@ -166,8 +189,8 @@
   gap: 10rem;
   margin-top: 6rem;
   margin-bottom: 100rem;
-  box-shadow: #f996c6 0px 6px 12px -2px, #fd91dd 0px 3px 7px -3px;
-  background-color: #ffc1e2; }
+  box-shadow: rgba(215, 49, 157, 0.845) 0px 6px 12px -2px, #fa9fd0 0px 3px 7px -3px;
+  background-color: #fa9fd0; }
 
 #logo {
   width: 186px;
@@ -177,11 +200,11 @@
 
 #contacto {
   text-align: left;
-  color: palevioletred; }
+  color: rgba(215, 49, 157, 0.845); }
 
 #siguenos {
   text-align: right;
-  color: palevioletred; }
+  color: rgba(215, 49, 157, 0.845); }
 
 .textofooter {
   justify-content: center;

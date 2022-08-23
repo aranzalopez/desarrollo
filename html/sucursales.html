@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="ubicacion"
+        content="Ubica tu sucursal más cercana">
+        <meta name="keywords" content="pasteles,reposteria,dulce,chocolate,cdmx">
+        <link rel="stylesheet" href="../css/styles.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Sucursales</title>
 </head>
 
 <body>
@@ -45,17 +48,31 @@
 
     <main>
         <h1 class="titulo">Sucursales</h1>
-        <div class="mapa">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.2528201019026!2d-99.0609563708008!3d19.32531679918409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0263d42f540b%3A0xd159dbfa29f6b61d!2sPapeleria%20Laptop!5e0!3m2!1ses-419!2smx!4v1660075213071!5m2!1ses-419!2smx"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="col-md-12 padd ">
+            <div class="col-md-12 col-lg-6  mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.2528201019026!2d-99.0609563708008!3d19.32531679918409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0263d42f540b%3A0xd159dbfa29f6b61d!2sPapeleria%20Laptop!5e0!3m2!1ses-419!2smx!4v1660075213071!5m2!1ses-419!2smx"></iframe>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="suc-info">
+                    <h3 class="lugar"><i class="fas fa-store" aria-hidden="true"></i> Iztapalapa</h3>
+                    <p>
+                        <b>Dirección:</b>
+                        <br><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Braulio Maldonado 125
+                        <br><b>Horario:</b>
+                        <br><i class="far fa-clock" aria-hidden="true"></i> Lunes a sábado: 8:00 a 21:00
+                        horas<br>Domingo: 10:00 a 18:00 horas
+                        <br><b>Teléfono:</b> <span><i class="fas fa-phone" aria-hidden="true"></i> <a
+                                href="tel:4422342279">Llamar (55) 48247050</a></span>
+                    </p>
+                </div>
+            </div>
         </div>
-        
     </main>
 
     <footer>
-        
+
         <div class="footer-wrapper mk-grid">
             <div class="mk-padding-wrapper" id="footer">
                 <div class="mk-col-1-3" id="texto1">
@@ -84,12 +101,12 @@
                             </p>
                             <p style="text-align: right"><a href="https://www.facebook.com/ViriSweetBakery"><img
                                         class="alignnone wp-image-309 size-full"
-                                        src="http://192.241.205.46/elpostre/wp-content/uploads/sites/16/2018/09/icono-facebook.png"
+                                        src="../img/facebook.jpg"
                                         alt="" width="32" height="32"></a> <a
                                     href="https://www.instagram.com/viridiana_swb/"><img
                                         class="alignnone wp-image-309 size-full"
-                                        src="http://192.241.205.46/elpostre/wp-content/uploads/sites/16/2018/09/icono-instagram.png"
-                                        alt=""></a></p>
+                                        src="../img/whatsapp.jpg"
+                                        alt="" width="32" height="32"></a></p>
                             <p><span>@viridianasweetbakery</span></p>
                         </div>
                     </section>
@@ -97,9 +114,9 @@
                 <div class="clearboth"></div>
             </div>
         </div>
-    
 
-</footer>
+
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

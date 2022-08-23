@@ -1,0 +1,32 @@
+#carrusel_index {
+
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: $rosa2 0px 6px 12px -2px, $rosa1 0px 3px 7px -3px;
+
+
+}
+
+#carrusel_galeria {
+
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: $rosa2 0px 6px 12px -2px, $rosa1 0px 3px 7px -3px;
+
+
+}
+
+.titulo_slide {
+    font-family: $fuente_prim;
+    font-weight: bolder;
+    color: azure;
+    font-weight: 60px;
+}
+
+.p_slide {
+    font-family: $fuente_prim;
+    color: azure;
+    font-weight: 50px;
+}
